@@ -1,0 +1,551 @@
+{
+ "prvsiyan/vqcc-verified-best-of-circuits-1106a": {
+  "ref": "prvsiyan/vqcc-verified-best-of-circuits-1106a",
+  "title": "Circuits That Survived the Salt",
+  "size": "64340020",
+  "lastUpdated": "2026-11-13 14:12:53.337000",
+  "downloadCount": "4755",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "ghazarosbarseghyan91/vqcc-combo-candidates": {
+  "ref": "ghazarosbarseghyan91/vqcc-combo-candidates",
+  "title": "vqcc combo candidates",
+  "size": "54899179",
+  "lastUpdated": "2026-11-13 13:12:04.337000",
+  "downloadCount": "425",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "kirderf/vqcc-dqi-cutoff-variants": {
+  "ref": "kirderf/vqcc-dqi-cutoff-variants",
+  "title": "VQCC DQI cutoff decoder variants (15-20)",
+  "size": "213403797",
+  "lastUpdated": "2026-11-13 10:22:25.863000",
+  "downloadCount": "279",
+  "voteCount": "1",
+  "usabilityRating": "0.4375"
+ },
+ "kirderf/vqcc-portfolio-27-11": {
+  "ref": "kirderf/vqcc-portfolio-27-11",
+  "title": "VQCC 27.11 portfolio members",
+  "size": "54917897",
+  "lastUpdated": "2026-11-13 08:53:49.867000",
+  "downloadCount": "210",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "lucifer19/black-cat-v9-credited-portfolio": {
+  "ref": "lucifer19/black-cat-v9-credited-portfolio",
+  "title": "Black Cat v9 Credited Portfolio",
+  "size": "54945961",
+  "lastUpdated": "2026-11-13 06:40:33.240000",
+  "downloadCount": "227",
+  "voteCount": "1",
+  "usabilityRating": "0.375"
+ },
+ "manwithacat/vqcc-apache-public-circuits": {
+  "ref": "manwithacat/vqcc-apache-public-circuits",
+  "title": "VQCC public circuits (Apache-2.0)",
+  "size": "4980796166",
+  "lastUpdated": "2026-11-12 22:40:58.030000",
+  "downloadCount": "96815",
+  "voteCount": "21",
+  "usabilityRating": "0.88235295"
+ },
+ "syed3000/vqcc-own-circuit-portfolio": {
+  "ref": "syed3000/vqcc-own-circuit-portfolio",
+  "title": "VQCC Own-Circuit Portfolio",
+  "size": "67262806",
+  "lastUpdated": "2026-11-12 20:31:21.093000",
+  "downloadCount": "10291",
+  "voteCount": "8",
+  "usabilityRating": "1"
+ },
+ "lucifer19/black-cat-v8-credited-portfolio": {
+  "ref": "lucifer19/black-cat-v8-credited-portfolio",
+  "title": "Black Cat v8 Credited Portfolio",
+  "size": "39494641",
+  "lastUpdated": "2026-11-12 18:37:12.630000",
+  "downloadCount": "242",
+  "voteCount": "0",
+  "usabilityRating": "0.4375"
+ },
+ "manwithacat/vqcc-chemistry-negative-results": {
+  "ref": "manwithacat/vqcc-chemistry-negative-results",
+  "title": "VQCC Negative Results",
+  "size": "8025950",
+  "lastUpdated": "2026-11-12 17:48:05.730000",
+  "downloadCount": "2925",
+  "voteCount": "1",
+  "usabilityRating": "0.9411765"
+ },
+ "matousakura/best-of-public-portfolio": {
+  "ref": "matousakura/best-of-public-portfolio",
+  "title": "24.67x portfolio + Apache-2.0 source & receipts",
+  "size": "1569454",
+  "lastUpdated": "2026-11-12 02:25:05.057000",
+  "downloadCount": "2393",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "manwithacat/vqcc-modular-circuit-parts": {
+  "ref": "manwithacat/vqcc-modular-circuit-parts",
+  "title": "VQCC Modular Circuit Parts Catalogue",
+  "size": "498789",
+  "lastUpdated": "2026-11-11 13:03:19.843000",
+  "downloadCount": "290",
+  "voteCount": "0",
+  "usabilityRating": "0.7647059"
+ },
+ "busyaprime/33-qcc-v8-members": {
+  "ref": "busyaprime/33-qcc-v8-members",
+  "title": "33 QCC V8 members",
+  "size": "42295487",
+  "lastUpdated": "2026-11-11 10:42:58.523000",
+  "downloadCount": "8770",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "malachiwmoody/vqcc-lb-24-7928-public-circuits": {
+  "ref": "malachiwmoody/vqcc-lb-24-7928-public-circuits",
+  "title": "VQCC LB 24.7928 public circuits",
+  "size": "25139950",
+  "lastUpdated": "2026-11-11 07:36:42.490000",
+  "downloadCount": "557",
+  "voteCount": "1",
+  "usabilityRating": "1"
+ },
+ "victorzhong0110/vqcc-verifier-invariance-atlas": {
+  "ref": "victorzhong0110/vqcc-verifier-invariance-atlas",
+  "title": "VQCC Verifier Invariance Atlas",
+  "size": "24896",
+  "lastUpdated": "2026-11-11 04:11:26.727000",
+  "downloadCount": "417",
+  "voteCount": "2",
+  "usabilityRating": "0.7647059"
+ },
+ "manwithacat/vqcc-hedge-wizardry": {
+  "ref": "manwithacat/vqcc-hedge-wizardry",
+  "title": "VQCC Hedge Wizardry",
+  "size": "272536382",
+  "lastUpdated": "2026-11-11 01:19:30.773000",
+  "downloadCount": "12137",
+  "voteCount": "1",
+  "usabilityRating": "0.64705884"
+ },
+ "iwanttorungemma9b/vqcc-team-experiments-condensed": {
+  "ref": "iwanttorungemma9b/vqcc-team-experiments-condensed",
+  "title": "VQCC team experiments: condensed evidence",
+  "size": "53192868",
+  "lastUpdated": "2026-11-10 17:57:16.807000",
+  "downloadCount": "6150",
+  "voteCount": "1",
+  "usabilityRating": "0.64705884"
+ },
+ "lucifer19/black-cat-v7-credited-portfolio": {
+  "ref": "lucifer19/black-cat-v7-credited-portfolio",
+  "title": "Black Cat v7 Credited Portfolio",
+  "size": "39729791",
+  "lastUpdated": "2026-11-10 16:02:28.663000",
+  "downloadCount": "292",
+  "voteCount": "0",
+  "usabilityRating": "0.4375"
+ },
+ "victorzhong0110/vqcc-givens-tree-angle-budget-atlas": {
+  "ref": "victorzhong0110/vqcc-givens-tree-angle-budget-atlas",
+  "title": "VQCC Givens Tree Angle Budget Atlas",
+  "size": "28935",
+  "lastUpdated": "2026-11-10 12:17:58.247000",
+  "downloadCount": "427",
+  "voteCount": "1",
+  "usabilityRating": "0.7647059"
+ },
+ "victorzhong0110/vqcc-femoco-public-factorization-audit": {
+  "ref": "victorzhong0110/vqcc-femoco-public-factorization-audit",
+  "title": "VQCC FeMoCo Public Factorization Audit",
+  "size": "16726",
+  "lastUpdated": "2026-11-10 12:17:21.330000",
+  "downloadCount": "274",
+  "voteCount": "1",
+  "usabilityRating": "0.7647059"
+ },
+ "victorzhong0110/vqcc-dfthc-cost-precision-atlas": {
+  "ref": "victorzhong0110/vqcc-dfthc-cost-precision-atlas",
+  "title": "VQCC DF-THC Cost-Precision Atlas",
+  "size": "20502",
+  "lastUpdated": "2026-11-10 12:16:49.733000",
+  "downloadCount": "394",
+  "voteCount": "0",
+  "usabilityRating": "0.7647059"
+ },
+ "heliosli/qcc-circuits-live": {
+  "ref": "heliosli/qcc-circuits-live",
+  "title": "QCC circuits live",
+  "size": "21150588",
+  "lastUpdated": "2026-11-13 14:59:04.563000",
+  "downloadCount": "35055",
+  "voteCount": "4",
+  "usabilityRating": "0.3125"
+ },
+ "maoxin123/qcc-chemistry-4044-toffoli-loaders": {
+  "ref": "maoxin123/qcc-chemistry-4044-toffoli-loaders",
+  "title": "QCC chemistry 4044-Toffoli loaders",
+  "size": "1700482",
+  "lastUpdated": "2026-11-13 13:14:39.953000",
+  "downloadCount": "356",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "maoxin123/qcc-chemistry-4057-toffoli-loaders": {
+  "ref": "maoxin123/qcc-chemistry-4057-toffoli-loaders",
+  "title": "QCC chemistry 4057-Toffoli loaders",
+  "size": "1513135",
+  "lastUpdated": "2026-11-13 03:21:01.283000",
+  "downloadCount": "445",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "apihpih/qcc-lb25396-verified-portfolio": {
+  "ref": "apihpih/qcc-lb25396-verified-portfolio",
+  "title": "QCC LB 25.396 verified portfolio bytes",
+  "size": "42034727",
+  "lastUpdated": "2026-11-13 00:29:15.900000",
+  "downloadCount": "224",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "maoxin123/qcc-dqi-392k-toffoli-decoder": {
+  "ref": "maoxin123/qcc-dqi-392k-toffoli-decoder",
+  "title": "QCC DQI 392k-Toffoli decoder",
+  "size": "11250097",
+  "lastUpdated": "2026-11-12 14:02:17.583000",
+  "downloadCount": "272",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "pramitdas/qcc-public-frontier-25-405": {
+  "ref": "pramitdas/qcc-public-frontier-25-405",
+  "title": "QCC public frontier 25.405 - verified portfolio",
+  "size": "42095901",
+  "lastUpdated": "2026-11-12 13:49:18.697000",
+  "downloadCount": "480",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "asteriospanoras/qcc-circuit-atlas": {
+  "ref": "asteriospanoras/qcc-circuit-atlas",
+  "title": "QCC Circuit Atlas",
+  "size": "473899678",
+  "lastUpdated": "2026-11-12 13:31:14.503000",
+  "downloadCount": "1119",
+  "voteCount": "1",
+  "usabilityRating": "0.8235294"
+ },
+ "junmiaotiao/qcc-frontier-20261112d": {
+  "ref": "junmiaotiao/qcc-frontier-20261112d",
+  "title": "QCC frontier 2026-11-12d 4089 mix",
+  "size": "12616726",
+  "lastUpdated": "2026-11-12 04:03:55.147000",
+  "downloadCount": "449",
+  "voteCount": "0",
+  "usabilityRating": "0.3125"
+ },
+ "junmiaotiao/qcc-frontier-20261112c": {
+  "ref": "junmiaotiao/qcc-frontier-20261112c",
+  "title": "QCC frontier 2026-11-12c heliosli invsqrt mix",
+  "size": "12580296",
+  "lastUpdated": "2026-11-12 02:18:58.197000",
+  "downloadCount": "261",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "junmiaotiao/qcc-frontier-20261112b": {
+  "ref": "junmiaotiao/qcc-frontier-20261112b",
+  "title": "QCC frontier 2026-11-12b iso-gap mix",
+  "size": "12572096",
+  "lastUpdated": "2026-11-11 21:41:05.407000",
+  "downloadCount": "326",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "junmiaotiao/qcc-frontier-20261112": {
+  "ref": "junmiaotiao/qcc-frontier-20261112",
+  "title": "QCC frontier 2026-11-12 v22 mix",
+  "size": "23115682",
+  "lastUpdated": "2026-11-11 19:46:46.997000",
+  "downloadCount": "304",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "pramitdas/qcc-public-frontier-25-367": {
+  "ref": "pramitdas/qcc-public-frontier-25-367",
+  "title": "QCC public frontier 25.367 - verified portfolio",
+  "size": "42046278",
+  "lastUpdated": "2026-11-11 19:41:59.713000",
+  "downloadCount": "442",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "junmiaotiao/qcc-frontier-20261111": {
+  "ref": "junmiaotiao/qcc-frontier-20261111",
+  "title": "QCC frontier 2026-11-11 pinned portfolio",
+  "size": "39729434",
+  "lastUpdated": "2026-11-11 11:34:14.467000",
+  "downloadCount": "320",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "masonbradleygilhool/qcc-combo-v2": {
+  "ref": "masonbradleygilhool/qcc-combo-v2",
+  "title": "QCC Combo V2 - Best Verified Public Components",
+  "size": "39727943",
+  "lastUpdated": "2026-11-10 16:39:43.543000",
+  "downloadCount": "407",
+  "voteCount": "0",
+  "usabilityRating": "0.375"
+ },
+ "victorzhong0110/vqcc-dfthc-baseline-metrics": {
+  "ref": "victorzhong0110/vqcc-dfthc-baseline-metrics",
+  "title": "VQCC DF-THC Baseline Metrics",
+  "size": "17426",
+  "lastUpdated": "2026-11-10 12:16:16.890000",
+  "downloadCount": "503",
+  "voteCount": "1",
+  "usabilityRating": "0.7647059"
+ },
+ "ibillxia/qcc-25-23789-portfolio": {
+  "ref": "ibillxia/qcc-25-23789-portfolio",
+  "title": "QCC Circuits \u2014 25.23789 Portfolio",
+  "size": "12568686",
+  "lastUpdated": "2026-11-10 08:53:28.233000",
+  "downloadCount": "599",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "jesse840/qcc-dqi-both-salt-e9f54be3": {
+  "ref": "jesse840/qcc-dqi-both-salt-e9f54be3",
+  "title": "QCC DQI both-salt screen: heliosli e9f54be3",
+  "size": "37936789",
+  "lastUpdated": "2026-11-09 16:37:42.807000",
+  "downloadCount": "84",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "pramitdas/qcc-public-frontier-submission": {
+  "ref": "pramitdas/qcc-public-frontier-submission",
+  "title": "QCC public frontier submission (Nov 2026)",
+  "size": "39624529",
+  "lastUpdated": "2026-11-09 15:40:28.757000",
+  "downloadCount": "447",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "carsonrodrigues/kaggle-medal-line-tracker": {
+  "ref": "carsonrodrigues/kaggle-medal-line-tracker",
+  "title": "Kaggle Medal-Line Tracker (Daily, De-identified)",
+  "size": "982776",
+  "lastUpdated": "2026-11-13 00:30:47.170000",
+  "downloadCount": "251",
+  "voteCount": "0",
+  "usabilityRating": "0.9411765"
+ },
+ "ozertuu/quantum-sim-linalg-cache": {
+  "ref": "ozertuu/quantum-sim-linalg-cache",
+  "title": "Quantum Sim Linalg Cache",
+  "size": "21118740",
+  "lastUpdated": "2026-11-12 21:57:40.247000",
+  "downloadCount": "2787",
+  "voteCount": "3",
+  "usabilityRating": "0.5625"
+ },
+ "marculera/dfthc-c44-build": {
+  "ref": "marculera/dfthc-c44-build",
+  "title": "DF-THC 11.2x: (8, 143, 44) table and loaders",
+  "size": "1752055",
+  "lastUpdated": "2026-11-10 21:46:25.717000",
+  "downloadCount": "2092",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "jesse840/vm-screen-dqi-candidate": {
+  "ref": "jesse840/vm-screen-dqi-candidate",
+  "title": "VM-SCREEN-DQI Candidate Files",
+  "size": "38597104",
+  "lastUpdated": "2026-11-09 08:05:54.897000",
+  "downloadCount": "83",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "abcode80/qcc-trio-verifier-pack": {
+  "ref": "abcode80/qcc-trio-verifier-pack",
+  "title": "QCC trio verifier pack",
+  "size": "90071843",
+  "lastUpdated": "2026-11-06 20:12:32.277000",
+  "downloadCount": "207",
+  "voteCount": "0",
+  "usabilityRating": "0.25"
+ },
+ "daifanhao/qcc-2494096-c44-dqi-reproduction": {
+  "ref": "daifanhao/qcc-2494096-c44-dqi-reproduction",
+  "title": "QCC 24.94096 C44 DQI Reproduction",
+  "size": "150647401",
+  "lastUpdated": "2026-11-06 07:56:42.927000",
+  "downloadCount": "1169",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "mdkawsarahamed/qcc-verified-public-portfolio-costs": {
+  "ref": "mdkawsarahamed/qcc-verified-public-portfolio-costs",
+  "title": "Verifiable Quantum Compilation - Verified Costs",
+  "size": "1439",
+  "lastUpdated": "2026-11-04 16:26:00.820000",
+  "downloadCount": "87",
+  "voteCount": "0",
+  "usabilityRating": "0.4117647"
+ },
+ "iwanttorungemma9b/vqcc-optimized-submission": {
+  "ref": "iwanttorungemma9b/vqcc-optimized-submission",
+  "title": "Quantum Circuit Compilation: Optimized Submission",
+  "size": "110335860",
+  "lastUpdated": "2026-11-04 15:44:13.817000",
+  "downloadCount": "350",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "ahoirg/qcc-reproducible-circuit-assets": {
+  "ref": "ahoirg/qcc-reproducible-circuit-assets",
+  "title": "QCC Reproducible Circuit Assets",
+  "size": "27164756",
+  "lastUpdated": "2026-11-03 22:02:58.173000",
+  "downloadCount": "1796",
+  "voteCount": "1",
+  "usabilityRating": "0.5"
+ },
+ "manwithacat/kickmix-engine-wheels": {
+  "ref": "manwithacat/kickmix-engine-wheels",
+  "title": "kickmix-engine wheels (offline install)",
+  "size": "1197566",
+  "lastUpdated": "2026-11-03 13:29:08.500000",
+  "downloadCount": "251",
+  "voteCount": "3",
+  "usabilityRating": "1"
+ },
+ "sigmaborov/qcc-frozen-alex-v83-public-baseline": {
+  "ref": "sigmaborov/qcc-frozen-alex-v83-public-baseline",
+  "title": "QCC frozen Alex V83 public baseline",
+  "size": "27801849",
+  "lastUpdated": "2026-11-02 15:20:20.347000",
+  "downloadCount": "211",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "dmitriigluzdov/vqcc-femoco-public-factorization": {
+  "ref": "dmitriigluzdov/vqcc-femoco-public-factorization",
+  "title": "VQCC FeMoCo Angle Words",
+  "size": "388653853",
+  "lastUpdated": "2026-11-07 12:26:12.307000",
+  "downloadCount": "45098",
+  "voteCount": "21",
+  "usabilityRating": "1"
+ },
+ "ahmedberatozer/vqcc-v22-portfolio": {
+  "ref": "ahmedberatozer/vqcc-v22-portfolio",
+  "title": "VQCC v22: verified three-task portfolio",
+  "size": "14371961",
+  "lastUpdated": "2026-11-02 16:23:15.283000",
+  "downloadCount": "419",
+  "voteCount": "1",
+  "usabilityRating": "0.5"
+ },
+ "ahmedberatozer/vqcc-v21-portfolio": {
+  "ref": "ahmedberatozer/vqcc-v21-portfolio",
+  "title": "VQCC v21: verified three-task portfolio",
+  "size": "14376055",
+  "lastUpdated": "2026-11-02 11:11:20.653000",
+  "downloadCount": "335",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "ahmedberatozer/vqcc-v20-portfolio": {
+  "ref": "ahmedberatozer/vqcc-v20-portfolio",
+  "title": "VQCC v20: verified three-task portfolio",
+  "size": "14287965",
+  "lastUpdated": "2026-11-02 09:52:31.533000",
+  "downloadCount": "232",
+  "voteCount": "1",
+  "usabilityRating": "0.5"
+ },
+ "somejoint/qcc-dqi-892-q26": {
+  "ref": "somejoint/qcc-dqi-892-q26",
+  "title": "QCC DQI 892 q26",
+  "size": "44575945",
+  "lastUpdated": "2026-11-01 16:52:19.417000",
+  "downloadCount": "7654",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "ahmedberatozer/vqcc-v19-portfolio": {
+  "ref": "ahmedberatozer/vqcc-v19-portfolio",
+  "title": "VQCC v19: verified three-task portfolio",
+  "size": "13851213",
+  "lastUpdated": "2026-11-01 16:08:56.653000",
+  "downloadCount": "426",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "sigmaborov/qcc-frozen-c40-892-baseline": {
+  "ref": "sigmaborov/qcc-frozen-c40-892-baseline",
+  "title": "QCC frozen C40 892-qubit public baseline",
+  "size": "26393192",
+  "lastUpdated": "2026-11-01 11:57:11.033000",
+  "downloadCount": "180",
+  "voteCount": "2",
+  "usabilityRating": "0.5"
+ },
+ "somejoint/qcc-dqi-892": {
+  "ref": "somejoint/qcc-dqi-892",
+  "title": "QCC DQI 892",
+  "size": "45219951",
+  "lastUpdated": "2026-11-01 07:36:14.943000",
+  "downloadCount": "716",
+  "voteCount": "1",
+  "usabilityRating": "0.5625"
+ },
+ "somejoint/qcc-dqi-898": {
+  "ref": "somejoint/qcc-dqi-898",
+  "title": "QCC DQI 898",
+  "size": "43884070",
+  "lastUpdated": "2026-11-01 01:25:13.457000",
+  "downloadCount": "9769",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ },
+ "ahmedberatozer/vqcc-v18-portfolio": {
+  "ref": "ahmedberatozer/vqcc-v18-portfolio",
+  "title": "VQCC v18: verified three-task portfolio",
+  "size": "13649907",
+  "lastUpdated": "2026-10-31 17:30:31.077000",
+  "downloadCount": "796",
+  "voteCount": "0",
+  "usabilityRating": "0.5"
+ },
+ "lucifer19/black-cat-v6-credited-portfolio": {
+  "ref": "lucifer19/black-cat-v6-credited-portfolio",
+  "title": "Black Cat v6 Credited Portfolio",
+  "size": "39624311",
+  "lastUpdated": "2026-11-09 22:01:38.747000",
+  "downloadCount": "305",
+  "voteCount": "1",
+  "usabilityRating": "0.4375"
+ },
+ "gengsr/vqcc-25-2268-portfolio": {
+  "ref": "gengsr/vqcc-25-2268-portfolio",
+  "title": "VQCC LB 25.2268 portfolio (gengsr)",
+  "size": "39664109",
+  "lastUpdated": "2026-11-09 19:01:12.957000",
+  "downloadCount": "2014",
+  "voteCount": "0",
+  "usabilityRating": "0.5625"
+ }
+}

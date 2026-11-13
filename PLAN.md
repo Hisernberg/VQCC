@@ -46,11 +46,13 @@ The leader (29.91) is 1.316× better than the public frontier in the product of 
 1. Fork **heliosli/the-dataset-is-public-now-enjoy** (27.29, re-verifies all files with the official verifiers) or **syed3000/vqcc-own-circuit-portfolio-notebook** (builds everything from source). Run it and submit. You go from 25.09 → ~27.29 (rank ~1300 → ~100–260, in the tie).
 2. Rotate every token you pasted in chat (see the end of this document).
 
-### Phase 1 – Nov 14–16: build your own loop (the most important step)
-1. Local workspace: `pip install kickmix` (now on PyPI), the competition `verifiers/`, Syed's source dataset (`syed3000/vqcc-own-circuit-portfolio`) and maoxin's chemistry (`maoxin123/qcc-v25-coded-word-chemistry`).
-2. One script per task: `build → official verifier → cost → append to results.jsonl → keep if better`. Quick checks first (subset or reduced shots), the full official verifier only for candidates that might be kept.
-3. Pin every candidate by SHA-256 and store the generator source next to it (you'll need it to claim a prize).
-4. Put the loop under an agent harness (Claude Code / Codex as the "brain", a local or free open model as the overnight worker). Give it a journal file and a hard rule: a result only counts if the untouched official verifier says PASS.
+### Phase 1 – Nov 14–16: run the loop on free compute (the most important step)
+The toolkit is built (section 8). What's left:
+1. Upload the toolkit as a private Kaggle dataset: `tools/make_kaggle_dataset.sh`.
+2. Push `kaggle/runner/` as a private Kaggle notebook: `kaggle kernels push -p kaggle/runner`. Its first run is a dry run that benchmarks the official build against the fast kickmix build on Kaggle's CPU.
+3. Get one free LLM key (NVIDIA NIM is the most generous) and add it as Kaggle Secrets (`VQCC_PROVIDER=nim`, `VQCC_MODEL=…`, `NVIDIA_API_KEY=…`). Every notebook run is then a 40-iteration agent session.
+4. Run `tools/drift.py` once a day to catch new public circuits. Every new frontier file is a new seed.
+5. Rule: only the **official kickmix build plus the untouched verifier** decides what gets submitted. The fast build is for screening.
 
 ### Phase 2 – Nov 16 → mid-Dec: pick one task and go deep
 Don't spread across all three. Choose by your strengths:
@@ -145,7 +147,7 @@ There is **no official "Qwen 4"** yet; only an experimental `qwen4_exp` architec
 
 | Model | Size | Where it runs | Use |
 |---|---|---|---|
-| Qwen/Qwen3.8-Flash-Next | 180B MoE | vast.ai 2×48–80 GB GPUs, or API | The model a competitor used for the overnight chemistry loop (thread 752949) |
+| Qwen/Qwen3.8-Flash-Next | 180B MoE | API only on free compute (too big for 2×T4) | The model a competitor used for the overnight chemistry loop (thread 752949) |
 | Qwen/Qwen3.8-27B (Apache-2.0) | 27.8B dense | One 24–32 GB GPU at Q4/FP8; Cerebras via HF providers | Best single-GPU worker |
 | DeepSeek-V4.1-Flash (MIT) | 763B | API (NVIDIA NIM free tier) | Strong reasoning/math "brain" |
 | GLM-5.3, Kimi-K3.1-Pro, MiniMax-M3.1-Flash | 0.7–2.8T | API (NIM / OpenRouter) | Second opinions, diversity in evolution |
@@ -153,4 +155,99 @@ There is **no official "Qwen 4"** yet; only an experimental `qwen4_exp` architec
 | Devstral-2-123B / Devstral-Small-2-24B | | Small fits one GPU at Q4 | Coding-specialised |
 | gemma-4-26B-A4B / 31B | | OpenRouter free; fits 2×T4 at Q4 | Cheap worker |
 
-**Budget advice ($10–20 on vast.ai):** that's roughly 25–50 h of an RTX 4090/5090, or 6–10 h of an H100. The circuits are verified on **CPU**, not GPU. Spend most of it on a **many-core CPU box** (32–64 vCPU, ≈$0.2–0.5/h) to run verifiers in parallel. Use free APIs (NIM, Groq, Cerebras, OpenRouter `:free`) for the LLM. Rent a GPU only if you want Qwen3.8-27B running locally overnight without rate limits.
+**Free-only rule:** no rented machines. LLM calls go to free API tiers. Small models run on Kaggle's free GPUs. Verifiers run on Kaggle's free CPUs (section 8).
+
+## 8. Free-only infrastructure and our own toolkit
+
+### Free compute (no rented machines)
+| Resource | What you get (check your Kaggle quota page, since limits change) | Use it for |
+|---|---|---|
+| Kaggle CPU notebook | 4 vCPU, ~30 GB RAM, up to 12 h per session, runs in the background after "Save & Run All" | Verifier loops, agent driver (`kaggle/runner`) |
+| Kaggle GPU (T4×2 or P100) | Weekly GPU-hour quota (≈30 h) | A local LLM worker (Qwen3.8-27B Q4, gpt-oss-20b, Devstral-Small-24B) served by llama.cpp/vLLM on `127.0.0.1:8000` → `--provider local` |
+| Kaggle TPU VM | Weekly TPU quota (≈20 h). TPU host VMs usually have many more CPU cores | **Test this:** run the runner with TPU enabled and read its `nproc`. If it shows dozens of cores, it's the cheapest big verifier box you can get |
+| GitHub Actions (private repo) | ~2,000 free minutes/month on 2-core runners | Nightly `tools/drift.py` snapshot + quick checks |
+| Google Colab free | ~2 vCPU, sometimes a T4 | Spare worker |
+| This cloud session | 4 vCPU (AVX-512) | Building wheels, development, full verifies |
+| Free LLM APIs | NVIDIA NIM (DeepSeek-V4.1-Flash, MiniMax-M3.1-Flash, Kimi-K2.6, GLM-5.3-Flash, gpt-oss), Groq (gpt-oss-20b/120b), Cerebras (Qwen3.8-27B, gpt-oss-120b), OpenRouter `:free` (Nemotron-3-Ultra, Gemma-4), Gemini free tier | The driver's "brain" (`--provider nim/groq/cerebras/openrouter/gemini`) |
+
+Rotate providers when one rate-limits you; the driver backs off and retries automatically.
+
+### Toolkit built in this repo
+| Piece | File | What it does |
+|---|---|---|
+| Verify harness | `loop/verify.py` | Official verifier → JSON → `results.jsonl` (with SHA-256) → keeps the best in `best/` |
+| Agent driver | `loop/driver.py` | LLM proposes a generator change → build in a sandboxed subprocess → quick verify → full verify → keep/discard → `runs/<task>/journal.jsonl`. Works with any OpenAI-compatible endpoint, free APIs or a local model |
+| Seed + brief | `loop/seeds/invsqrt_peephole.py`, `loop/prompts/invsqrt.md` | Starting generator (rewrites the 46-qubit frontier circuit) and the task contract the LLM reads |
+| Drifter | `tools/drift.py` | Daily snapshot of leaderboard, notebooks, datasets and topics, plus a `REPORT.md` diff of what moved |
+| Circuit catalog | `tools/catalog.py` → `catalog/circuits.csv` | Indexes every circuit file by SHA-256 with static stats |
+| Component price list | `tools/components.py` → `catalog/components.csv` | Toffoli and ancilla cost of kickmix building blocks (adders, comparators, lookups, GF(2) multiplies) so designs can be costed before they're written |
+| Optimized kickmix wheels | `tools/build_native_kickmix.sh`, `tools/install_kickmix.py` | The PyPI wheel is compiled with `-mno-avx` (SSE only). Our builds enable AVX2 (`x86-64-v3`) / AVX-512 (`x86-64-v4`). Same verifier result, bit for bit, on the invsqrt frontier; the native build runs the full verify ~19% faster here. The installer picks the fastest build the CPU supports |
+| Kaggle dataset | `tools/make_kaggle_dataset.sh` → private `kragglenote2forwork/vqcc-toolkit` | Everything above plus the wheels, refusing to upload anything that looks like a credential |
+| Kaggle worker | `kaggle/runner/` | Private CPU notebook: installs the fast wheel, checks it against the official build, then runs the driver with keys from Kaggle Secrets |
+
+## 9. Kaggle discussions worth reading
+Base URL: `https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/<id>`
+
+| id | Topic | Why |
+|---|---|---|
+| 753307 | kickmix is now on PyPI | Official install path (stickied) |
+| 750817 | How to get started + official Discord | Organizer links |
+| 755427 | Final evaluation scope: published verifier or extra checks? | **Risk:** reachable-state-only ANGLE loaders pass the verifier. Watch for an organizer answer |
+| 752010 | Winner source-delivery requirements | Keep generator source for every submitted file |
+| 758815 | First public 27+ notebook, from source (Syed) | The base our toolkit seeds from |
+| 756476 | Two exact finite-field multiplication complexities, with proofs | DQI GF(2^12) multiply lower bounds (42 Toffolis optimal for that approach) |
+| 753607 | DQI: the baselines ratio 60.11 | How DQI's cost and repetition factor behave |
+| 753403 | An interactive look inside the invsqrt circuit | Circuit anatomy |
+| 754970 | Free introductory guide to FTQC circuit optimization | Background |
+| 752949 | Room for local models: one-person setup | Qwen3.8-Flash-Next overnight harness, ~5% chemistry gain |
+| 757915 | Fable 5.2 is an expensive beast | Cost of frontier-model agents |
+| 757471 | DeepMind paper: formally verified quantum programs (2611.09822) | |
+| 754652 | What to learn from this competition | Agent-management lessons |
+| 752550 | What are you scoring in each task? | Per-task numbers from others |
+| 751968 | Can we have a per-task leaderboard? | |
+
+## 10. Kaggle notebooks and datasets worth forking or reading
+
+**Notebooks** (`https://www.kaggle.com/code/<ref>`)
+
+| Ref | Why |
+|---|---|
+| heliosli/the-dataset-is-public-now-enjoy | **27.29 frontier**, re-verifies with official verifiers. Submit this first |
+| syed3000/vqcc-own-circuit-portfolio-notebook | Rebuilds all three circuits **from source** (27.0) |
+| areebbb/qai-fewer-toffolis-same-qubits-lb-27-11042 | DQI cutoff ladder with exact excluded probabilities, product-retention proof harness |
+| maoxin123/qcc-v25-coded-word-chemistry | Coded-word chemistry table + 4,044-AND loaders (CC0) |
+| atakanaldemir/quantum-circuits-iso-gap-dqi-h5 | Joint W/H2_I refit with L-BFGS + Schur chart |
+| mizeroluckygall/quantum-circuits-4044-toffoli-chemistry-guide | Plain-language walkthrough of the 27.29 portfolio |
+| sheroleg/quantum-circuits-from-zero-1-sqrt-x-explained | Best invsqrt explainer: 46-qubit anatomy, the 485 one-wire spikes |
+| ozertuu/quantum-ai-27-083-vqcc-dqi-cutoff-17 | DQI extractor-cutoff idea |
+| kirilltym/quantum-circuits-retained-product-audit, …-conditional-uncompute-audit, …-pi-gauge-weight-refinement | Careful audits of the main techniques |
+| prvsiyan/verifier-guided-quantum-circuit-optimization | Verifier-in-the-loop pattern, refit code |
+| orecord/quantum-circuit-compilation-pipeline | Independent from-source pipeline (curvature-interpolation invsqrt, THC chemistry) |
+| manwithacat/vqcc-hedge-wizardry-notebook | How to hedge the salt-dependent DQI draw |
+| sohier/verifiable-circuit-compilation-starter, metric/google-quantum-ai-metric | Official starter and the scoring code |
+
+**Datasets** (`https://www.kaggle.com/datasets/<ref>`)
+
+| Ref | Why |
+|---|---|
+| heliosli/qcc-circuits-live | The 27.29 circuit files (attached to our runner) |
+| syed3000/vqcc-own-circuit-portfolio | Full builder sources for all three tasks |
+| manwithacat/vqcc-apache-public-circuits | ~5 GB archive of public circuits |
+| manwithacat/vqcc-chemistry-negative-results | What did **not** work in chemistry |
+| manwithacat/vqcc-modular-circuit-parts | Reusable parts catalogue |
+| kirderf/vqcc-dqi-cutoff-variants | DQI cutoff 15–20 builds |
+| prvsiyan/vqcc-verified-best-of-circuits-1106a | Salt-tested circuits |
+| sohier/verifiable-circuit-compilation-starter-kit | Official dfthcsos starter kit |
+
+## 11. Open quantum libraries and components
+
+| Library | Use here |
+|---|---|
+| **kickmix** (`pip install kickmix`, source in quantumlib/Qualtran/kickmix) | The simulator and `CircuitBuilder` primitives: `init_and`/`del_and` (temporary AND), `init_lookup`/`del_lookup` (QROM with measurement-based uncompute), `iadd`/`isub`, `flip_if_less_than`, `left_rotate`, `unary_iteration`, `init_gf2_mul`, `gf2_imul`, `init_gf2_inverse`, `gf2_phase_by_product` |
+| **Qualtran** (quantumlib/Qualtran) | Bloqs and resource counts: `bloqs/arithmetic`, `bloqs/chemistry/{df,thc}`, `bloqs/chemistry/trotter/grid_ham/inverse_sqrt.py` (invsqrt reference), `bloqs/data_loading` (QROM/QROAM/select-swap) |
+| **OpenFermion** `resource_estimates/{df,thc,sf}` | DF/THC factorization and costing code for task III |
+| **PySCF** | Reading the FeMoCo FCIDUMP; integral manipulation for refactorization |
+| **Cirq** | Circuit utilities (not needed for scoring) |
+| **andigu/uncompute** | Gu et al. circuits and graders (DQI-RS, Coulomb), the closest prior art |
+| **OpenEvolve / ShinkaEvolve** | Off-the-shelf evolutionary LLM loops; `loop/driver.py` is a minimal version you control |
+| **Stim** | Not needed; design reference for fast bit-sliced simulation |

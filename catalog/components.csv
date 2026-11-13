@@ -1,0 +1,68 @@
+component,n,toffoli_like,t_like,qubits_total,io_qubits,ancilla,ops,reaction_depth
+iadd quantum,8,7,0,22,16,6,70,13
+iadd classical const,8,6,0,15,8,7,72,13
+controlled iadd quantum,8,19,0,23,17,6,73,21
+less_than quantum,8,8,0,24,17,7,114,8
+less_than const,8,7,0,16,9,7,79,8
+iadd quantum,12,11,0,34,24,10,114,21
+iadd classical const,12,10,0,23,12,11,100,21
+controlled iadd quantum,12,27,0,35,25,10,117,33
+less_than quantum,12,12,0,36,25,11,174,12
+less_than const,12,11,0,24,13,11,111,12
+iadd quantum,16,15,0,46,32,14,158,29
+iadd classical const,16,14,0,31,16,15,138,29
+controlled iadd quantum,16,35,0,47,33,14,161,45
+less_than quantum,16,16,0,48,33,15,234,16
+less_than const,16,15,0,32,17,15,143,16
+iadd quantum,22,21,0,64,44,20,224,41
+iadd classical const,22,20,0,43,22,21,180,41
+controlled iadd quantum,22,47,0,65,45,20,227,63
+less_than quantum,22,22,0,66,45,21,324,22
+less_than const,22,21,0,44,23,21,191,22
+iadd quantum,24,23,0,70,48,22,246,45
+iadd classical const,24,22,0,47,24,23,194,45
+controlled iadd quantum,24,51,0,71,49,22,249,69
+less_than quantum,24,24,0,72,49,23,354,24
+less_than const,24,23,0,48,25,23,207,24
+iadd quantum,28,27,0,82,56,26,290,53
+iadd classical const,28,26,0,55,28,27,222,53
+controlled iadd quantum,28,59,0,83,57,26,293,81
+less_than quantum,28,28,0,84,57,27,414,28
+less_than const,28,27,0,56,29,27,239,28
+iadd quantum,32,31,0,94,64,30,334,61
+iadd classical const,32,30,0,63,32,31,250,61
+controlled iadd quantum,32,67,0,95,65,30,337,93
+less_than quantum,32,32,0,96,65,31,474,32
+less_than const,32,31,0,64,33,31,271,32
+lookup init w=8,2,2,0,12,10,2,53,2
+lookup init+del(MBUC) w=8,2,2,0,12,10,2,123,2
+lookup init w=16,2,2,0,20,18,2,77,2
+lookup init+del(MBUC) w=16,2,2,0,20,18,2,187,2
+lookup init w=32,2,2,0,36,34,2,121,2
+lookup init+del(MBUC) w=32,2,2,0,36,34,2,307,2
+lookup init w=8,4,14,0,16,12,4,239,4
+lookup init+del(MBUC) w=8,4,17,0,16,12,4,420,5
+lookup init w=16,4,14,0,24,20,4,309,4
+lookup init+del(MBUC) w=16,4,17,0,24,20,4,576,5
+lookup init w=32,4,14,0,40,36,4,443,4
+lookup init+del(MBUC) w=32,4,17,0,40,36,4,876,5
+lookup init w=8,6,62,0,20,14,6,959,6
+lookup init+del(MBUC) w=8,6,72,0,20,14,6,1497,9
+lookup init w=16,6,62,0,28,22,6,1224,6
+lookup init+del(MBUC) w=16,6,72,0,28,22,6,2043,9
+lookup init w=32,6,62,0,44,38,6,1753,6
+lookup init+del(MBUC) w=32,6,72,0,44,38,6,3133,9
+lookup init w=8,8,254,0,24,16,8,3839,8
+lookup init+del(MBUC) w=8,8,279,0,24,16,8,5670,13
+lookup init w=16,8,254,0,32,24,8,4873,8
+lookup init+del(MBUC) w=16,8,279,0,32,24,8,7754,13
+lookup init w=32,8,254,0,48,40,8,6936,8
+lookup init+del(MBUC) w=32,8,279,0,48,40,8,11912,13
+lookup init w=8,10,1022,0,28,18,10,15359,10
+lookup init w=16,10,1022,0,36,26,10,19464,10
+lookup init w=32,10,1022,0,52,42,10,27681,10
+lookup init+del(MBUC) w=32,10,1078,0,52,42,10,46775,17
+gf2 mul (init),4,9,0,12,12,0,81,1
+gf2 mul (init),6,21,0,18,18,0,173,1
+gf2 mul (init),8,27,0,24,24,0,280,1
+gf2 mul (init),12,63,0,36,36,0,591,1

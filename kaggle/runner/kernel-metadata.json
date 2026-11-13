@@ -1,0 +1,14 @@
+{
+  "id": "kragglenote2forwork/vqcc-runner",
+  "title": "vqcc-runner",
+  "code_file": "runner.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["kragglenote2forwork/vqcc-toolkit", "heliosli/qcc-circuits-live"],
+  "competition_sources": ["google-verifiable-quantum-circuit-compilation"],
+  "kernel_sources": []
+}

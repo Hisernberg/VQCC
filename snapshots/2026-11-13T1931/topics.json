@@ -1,0 +1,911 @@
+{
+ "753307": {
+  "title": "[Update] kickmix is now on PyPI (Windows, Linux, and macOS wheels)",
+  "author": "",
+  "votes": 19,
+  "comments": 1,
+  "posted": "2026-10-27 20:22:33.920000",
+  "last_comment": "2026-11-04 21:20:40.333000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753307"
+ },
+ "750817": {
+  "title": "How to get started + Competition's Official Discord",
+  "author": "",
+  "votes": 13,
+  "comments": 2,
+  "posted": "2026-10-19 21:09:01.111000",
+  "last_comment": "2026-11-11 13:20:03.763000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/750817"
+ },
+ "759048": {
+  "title": "A rank-173 decomposition of the (H\u00b7D, H_hi\u00b7D\u00b2) map over GF(2^24)",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-13 14:32:41.438000",
+  "last_comment": "2026-11-13 14:32:41.440000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/759048"
+ },
+ "758978": {
+  "title": "there is a book on this competition:  Credits goes to \u3068\u3059\u304a @forest1040",
+  "author": "",
+  "votes": 4,
+  "comments": 1,
+  "posted": "2026-11-13 06:29:23.998000",
+  "last_comment": "2026-11-13 06:30:40.653000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758978"
+ },
+ "758815": {
+  "title": "First public 27+ notebook: a complete from-source package (Apache-2.0). Fork it and make it better",
+  "author": "",
+  "votes": 13,
+  "comments": 2,
+  "posted": "2026-11-12 21:39:29.457000",
+  "last_comment": "2026-11-13 18:09:52.106000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758815"
+ },
+ "758678": {
+  "title": "RezOps Briefing: frontier 25.44 \u2014 a 392k-Toffoli DQI decoder \u22120.53%, an invsqrt splice, lighter loaders \u2014 2026-11-12",
+  "author": "",
+  "votes": 0,
+  "comments": 3,
+  "posted": "2026-11-12 18:31:17.596000",
+  "last_comment": "2026-11-12 22:00:22.800000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758678"
+ },
+ "758659": {
+  "title": "Did you read and understand (to some degree) Domain Context section from Overview?",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-12 17:45:08.471000",
+  "last_comment": "2026-11-12 17:45:08.470000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758659"
+ },
+ "758129": {
+  "title": "RezOps Briefing: frontier 25.36 \u2014 chemistry loaders \u22120.35%, a DQI refit, an invsqrt splice, a DQI correction \u2014 2026-11-11",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-11 18:30:14.030000",
+  "last_comment": "2026-11-11 18:30:14.030000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758129"
+ },
+ "758095": {
+  "title": "Mid-Competition Milestone Prize: when and what must be published?",
+  "author": "",
+  "votes": 6,
+  "comments": 0,
+  "posted": "2026-11-11 17:08:20.013000",
+  "last_comment": "2026-11-11 17:08:20.013000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/758095"
+ },
+ "757915": {
+  "title": "Fable 5.2 is an expensive beast",
+  "author": "",
+  "votes": 9,
+  "comments": 16,
+  "posted": "2026-11-11 06:14:36.107000",
+  "last_comment": "2026-11-12 01:01:29.676000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757915"
+ },
+ "757775": {
+  "title": "RezOps Briefing: frontier 25.29 \u2014 invsqrt \u22120.7% again, a \u22120.2% chemistry refit, DQI ties \u2014 2026-11-10",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-10 18:35:00.452000",
+  "last_comment": "2026-11-10 18:35:00.453000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757775"
+ },
+ "757590": {
+  "title": "Public frontier check: gengsr 25.2268 zip reproduces exactly on LB; 2026-11-10 LB snapshot",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-10 04:15:16.656000",
+  "last_comment": "2026-11-10 04:15:16.656000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757590"
+ },
+ "757551": {
+  "title": "Submissions pending for 8\u20139 hours \u2014 evaluation queue delay?",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-09 23:57:40.258000",
+  "last_comment": "2026-11-09 23:57:40.260000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757551"
+ },
+ "757522": {
+  "title": "Clarification request \u2014 Chemistry ANGLE XOR contract and reachable input states",
+  "author": "",
+  "votes": 0,
+  "comments": 3,
+  "posted": "2026-11-09 22:38:20.042000",
+  "last_comment": "2026-11-12 03:23:16.796000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757522"
+ },
+ "757471": {
+  "title": "deepmind new paper: Discovering formally verified quantum programs with AI",
+  "author": "",
+  "votes": 6,
+  "comments": 0,
+  "posted": "2026-11-09 20:32:43.350000",
+  "last_comment": "2026-11-09 20:32:43.350000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757471"
+ },
+ "757363": {
+  "title": "RezOps Briefing: frontier 25.21 \u2014 invsqrt \u22120.8% from CSWAP re-synthesis, DQI phase folds, a lighter chemistry loader",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-09 17:21:50.896000",
+  "last_comment": "2026-11-09 17:21:50.896000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757363"
+ },
+ "757352": {
+  "title": "CPU notebook queue?",
+  "author": "",
+  "votes": 1,
+  "comments": 0,
+  "posted": "2026-11-09 16:59:03.411000",
+  "last_comment": "2026-11-09 16:59:03.410000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757352"
+ },
+ "757068": {
+  "title": "RezOps Briefing: the plateau moves to 25.148 \u2014 two one-Toffoli invsqrt edits, a four-route DQI cache, refit chemistry weights",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-08 18:53:30.574000",
+  "last_comment": "2026-11-08 18:53:30.573000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757068"
+ },
+ "757030": {
+  "title": "Open problems we are stuck on: shifters, qubit floors, uncompute and loader bounds",
+  "author": "",
+  "votes": 4,
+  "comments": 0,
+  "posted": "2026-11-08 16:07:55.335000",
+  "last_comment": "2026-11-08 16:07:55.336000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757030"
+ },
+ "757024": {
+  "title": "Mid-competition",
+  "author": "",
+  "votes": 4,
+  "comments": 1,
+  "posted": "2026-11-08 15:44:45.372000",
+  "last_comment": "2026-11-10 23:13:52.623000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/757024"
+ },
+ "756998": {
+  "title": "Anyone got higher in `invsqrt`?",
+  "author": "",
+  "votes": 4,
+  "comments": 1,
+  "posted": "2026-11-08 13:25:07.805000",
+  "last_comment": "2026-11-11 04:57:24.496000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756998"
+ },
+ "756863": {
+  "title": "What task is your favourite to work on, and least favourite task to work on?",
+  "author": "",
+  "votes": 8,
+  "comments": 2,
+  "posted": "2026-11-07 23:02:37.080000",
+  "last_comment": "2026-11-08 15:26:32.053000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756863"
+ },
+ "756824": {
+  "title": "RezOps Briefing: the plateau moves to 25.09 \u2014 measure-first rewrites cut invsqrt 1.8%, DQI loses 14 Toffolis, refit chemistry weights",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-07 19:07:22.244000",
+  "last_comment": "2026-11-07 19:07:22.243000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756824"
+ },
+ "756745": {
+  "title": "Prize eligibility for submissions assembled from public Apache-2.0 notebooks?",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-07 11:58:17.170000",
+  "last_comment": "2026-11-07 11:58:17.170000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756745"
+ },
+ "756558": {
+  "title": "RezOps Briefing: the 24.94 plateau \u2014 chemistry \u22121.0% on Syed Asad Ali's re-planned loaders; silver and bronze 0.04% apart",
+  "author": "",
+  "votes": 1,
+  "comments": 5,
+  "posted": "2026-11-06 17:56:45.383000",
+  "last_comment": "2026-11-07 11:37:07.370000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756558"
+ },
+ "756476": {
+  "title": "Two exact finite-field multiplication complexities \u2014 reproducible proofs",
+  "author": "",
+  "votes": 11,
+  "comments": 4,
+  "posted": "2026-11-06 13:55:36.942000",
+  "last_comment": "2026-11-08 11:28:06.736000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756476"
+ },
+ "756210": {
+  "title": "RezOps Briefing: chemistry falls 2.8% via Atakan Aldemir's pi gauge and Syed Asad Ali's C = 44 table; invsqrt under 97,810",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-05 17:19:43.723000",
+  "last_comment": "2026-11-05 17:19:43.723000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756210"
+ },
+ "756131": {
+  "title": "Licence status of jday96314's DQI decoder (QuantumAI repo) for prize-eligible submissions",
+  "author": "",
+  "votes": 1,
+  "comments": 7,
+  "posted": "2026-11-05 14:18:31.993000",
+  "last_comment": "2026-11-12 21:32:27.080000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/756131"
+ },
+ "755996": {
+  "title": "    Prize Winner Requirements \u2013 Verifiable Quantum Circuit Compilation",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-05 03:08:26.824000",
+  "last_comment": "2026-11-05 03:08:26.823000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755996"
+ },
+ "755972": {
+  "title": "Field notes from a crowd-built entry: 8 lessons + 10 closed levers (visual summary)",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-05 01:59:46.360000",
+  "last_comment": "2026-11-05 01:59:46.360000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755972"
+ },
+ "755953": {
+  "title": "What i do to for...",
+  "author": "",
+  "votes": 1,
+  "comments": 1,
+  "posted": "2026-11-05 00:31:32.257000",
+  "last_comment": "2026-11-05 17:21:29.793000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755953"
+ },
+ "755814": {
+  "title": "RezOps Briefing: chemistry moves to Lera's C = 45 table with new loaders, invsqrt under 98,000 \u2014 2026-11-04",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-04 17:43:49.220000",
+  "last_comment": "2026-11-04 17:43:49.220000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755814"
+ },
+ "755738": {
+  "title": "DQI on real hw ",
+  "author": "",
+  "votes": 1,
+  "comments": 1,
+  "posted": "2026-11-04 13:40:38.031000",
+  "last_comment": "2026-11-04 13:41:05.823000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755738"
+ },
+ "755643": {
+  "title": "Rules question: may we train on a rented cloud GPU using the starter kit?",
+  "author": "",
+  "votes": 0,
+  "comments": 3,
+  "posted": "2026-11-04 05:50:25.181000",
+  "last_comment": "2026-11-04 15:59:40.233000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755643"
+ },
+ "755525": {
+  "title": "Grid search vs. exact trigonometry",
+  "author": "",
+  "votes": 0,
+  "comments": 1,
+  "posted": "2026-11-03 21:07:58.289000",
+  "last_comment": "2026-11-05 00:29:34.280000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755525"
+ },
+ "755495": {
+  "title": "RezOps Briefing: every task moved \u2014 lattice-rounded C = 39 chemistry, an 891-qubit DQI, a refit tool \u2014 2026-11-03",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-03 19:38:12.523000",
+  "last_comment": "2026-11-03 19:38:12.523000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755495"
+ },
+ "755488": {
+  "title": "Generator requirement: does a generator that transforms a pinned public Apache-2.0 circuit qualify?",
+  "author": "",
+  "votes": -1,
+  "comments": 0,
+  "posted": "2026-11-03 19:07:35.078000",
+  "last_comment": "2026-11-03 19:07:35.080000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755488"
+ },
+ "755427": {
+  "title": "Final evaluation scope: published verifier or additional correctness checks?",
+  "author": "",
+  "votes": 15,
+  "comments": 0,
+  "posted": "2026-11-03 15:59:17.554000",
+  "last_comment": "2026-11-03 15:59:17.553000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755427"
+ },
+ "755404": {
+  "title": "New to quantum circuit compilation: I'm using my own Trinity framework. What tools are you using?",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-03 14:43:31.402000",
+  "last_comment": "2026-11-03 14:43:31.403000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755404"
+ },
+ "755303": {
+  "title": "How do you steer agents toward bigger improvements?",
+  "author": "",
+  "votes": 1,
+  "comments": 3,
+  "posted": "2026-11-03 06:41:11.727000",
+  "last_comment": "2026-11-04 10:26:35.853000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755303"
+ },
+ "755302": {
+  "title": "Is resetting workspace with R allowed in place of uncomputation?",
+  "author": "",
+  "votes": 5,
+  "comments": 4,
+  "posted": "2026-11-03 06:21:59.732000",
+  "last_comment": "2026-11-06 09:59:24.573000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755302"
+ },
+ "755075": {
+  "title": "Seeking collaboration / merger (best-per-benchmark)",
+  "author": "",
+  "votes": 1,
+  "comments": 7,
+  "posted": "2026-11-02 18:52:40.898000",
+  "last_comment": "2026-11-13 16:10:10.943000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755075"
+ },
+ "755038": {
+  "title": "RezOps Briefing: DQI 1.4% cheaper from exact rewrites and product caching, chemistry weight refits \u2014 2026-11-02",
+  "author": "",
+  "votes": 2,
+  "comments": 1,
+  "posted": "2026-11-02 17:18:09.657000",
+  "last_comment": "2026-11-03 06:30:41.613000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/755038"
+ },
+ "754970": {
+  "title": "Free introductory guide to FTQC circuit optimization for this competition",
+  "author": "",
+  "votes": 14,
+  "comments": 1,
+  "posted": "2026-11-02 14:04:14.246000",
+  "last_comment": "2026-11-03 01:13:36.016000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754970"
+ },
+ "754965": {
+  "title": "Scores on each part?",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-02 13:44:42.750000",
+  "last_comment": "2026-11-02 13:44:42.750000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754965"
+ },
+ "754956": {
+  "title": "The plateau at 23-24: 949 of 2,018 teams are at 23+, only 153 at 24+ (LB anatomy + open data)",
+  "author": "",
+  "votes": -2,
+  "comments": 1,
+  "posted": "2026-11-02 12:55:32.745000",
+  "last_comment": "2026-11-02 14:47:04.570000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754956"
+ },
+ "754914": {
+  "title": "What is next?",
+  "author": "",
+  "votes": -4,
+  "comments": 2,
+  "posted": "2026-11-02 09:41:05.193000",
+  "last_comment": "2026-11-02 15:15:03.470000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754914"
+ },
+ "754815": {
+  "title": "SymQ: checking circuit rewrites, ancillas and measurement corrections \u2014 feedback welcome",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-01 20:32:38.519000",
+  "last_comment": "2026-11-01 20:32:38.520000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754815"
+ },
+ "754805": {
+  "title": "The Three Biggest Challenges in Quantum AI comp: My Early Prediction",
+  "author": "",
+  "votes": 5,
+  "comments": 15,
+  "posted": "2026-11-01 18:25:30.852000",
+  "last_comment": "2026-11-04 18:34:52.856000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754805"
+ },
+ "754793": {
+  "title": "RezOps Briefing: DQI at 892 qubits three times over, a parts-assembled chemistry record, and a chemistry primer \u2014 2026-11-01",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-11-01 17:28:28.337000",
+  "last_comment": "2026-11-01 17:28:28.336000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754793"
+ },
+ "754751": {
+  "title": "GPU Resources?",
+  "author": "",
+  "votes": 0,
+  "comments": 1,
+  "posted": "2026-11-01 14:22:42.969000",
+  "last_comment": "2026-11-01 14:25:11.893000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754751"
+ },
+ "754696": {
+  "title": "End-to-End Quantum Circuit Workflow: From .kmb Files to Automated Optimization & Verification",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-11-01 09:46:25.699000",
+  "last_comment": "2026-11-01 09:46:25.700000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754696"
+ },
+ "754652": {
+  "title": "what to learn from this competition",
+  "author": "",
+  "votes": 35,
+  "comments": 30,
+  "posted": "2026-11-01 03:00:38.382000",
+  "last_comment": "2026-11-13 12:19:34.356000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754652"
+ },
+ "754605": {
+  "title": "RezOps Briefing: a new chemistry family from compact groups, a 900-qubit DQI, and the public blend at 23.505 \u2014 2026-10-31",
+  "author": "",
+  "votes": 0,
+  "comments": 2,
+  "posted": "2026-10-31 18:28:33.533000",
+  "last_comment": "2026-10-31 19:39:49.533000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754605"
+ },
+ "754557": {
+  "title": "How do you plan to win this game? ",
+  "author": "",
+  "votes": 4,
+  "comments": 16,
+  "posted": "2026-10-31 14:18:13.822000",
+  "last_comment": "2026-11-01 15:49:54.356000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754557"
+ },
+ "754466": {
+  "title": "ML method: Quantum Circuit Optimization with AlphaTensor",
+  "author": "",
+  "votes": 3,
+  "comments": 2,
+  "posted": "2026-10-31 07:18:17.488000",
+  "last_comment": "2026-10-31 15:27:57.313000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754466"
+ },
+ "754174": {
+  "title": "RezOps Briefing: inverse square root drops to 62 qubits (yoyobar), the DQI failures get fixed, and the public blend reaches 23.135 \u2014 2026-10-30",
+  "author": "",
+  "votes": 0,
+  "comments": 0,
+  "posted": "2026-10-30 17:12:03.300000",
+  "last_comment": "2026-10-30 17:12:03.300000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754174"
+ },
+ "754152": {
+  "title": "63 \u2192 62 on inverse square root: congratulations to yoyobar and Ahmed Berat \u00d6zer (and our notes on why it was hard)",
+  "author": "",
+  "votes": 1,
+  "comments": 5,
+  "posted": "2026-10-30 15:28:07.830000",
+  "last_comment": "2026-10-30 18:04:44.026000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754152"
+ },
+ "754089": {
+  "title": "How Are You Using AI Agents for This Competition? Do You Have a Quantum Computing Background?",
+  "author": "",
+  "votes": 4,
+  "comments": 13,
+  "posted": "2026-10-30 06:34:22.305000",
+  "last_comment": "2026-10-31 19:21:19.006000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/754089"
+ },
+ "753923": {
+  "title": "RezOps Briefing: chemistry becomes a parts market, hengck23's 889-qubit DQI takes the lead, plateau at 22.87 \u2014 2026-10-29",
+  "author": "",
+  "votes": 2,
+  "comments": 1,
+  "posted": "2026-10-29 19:56:19.371000",
+  "last_comment": "2026-10-29 20:27:26.043000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753923"
+ },
+ "753741": {
+  "title": "Some early thoughts on setting up a two stage search loop for kickmix",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-10-29 06:28:30.391000",
+  "last_comment": "2026-10-29 06:28:30.390000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753741"
+ },
+ "753740": {
+  "title": "Licence question: DQI circuits derived from jday96314/QuantumAI",
+  "author": "",
+  "votes": 4,
+  "comments": 2,
+  "posted": "2026-10-29 06:21:09.626000",
+  "last_comment": "2026-10-30 00:46:23.870000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753740"
+ },
+ "753738": {
+  "title": "Beyond the Plateau",
+  "author": "",
+  "votes": 3,
+  "comments": 10,
+  "posted": "2026-10-29 06:03:35.024000",
+  "last_comment": "2026-10-30 18:35:05.190000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753738"
+ },
+ "753687": {
+  "title": "Looking for teammates (solo, CPU-only): offering dfthcsos compile-and-verify tooling, seeking optimization/chemistry skills",
+  "author": "",
+  "votes": 3,
+  "comments": 1,
+  "posted": "2026-10-29 01:17:46.127000",
+  "last_comment": "2026-10-29 06:07:14.523000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753687"
+ },
+ "753660": {
+  "title": "  Permission request: reuse of the QuantumAI DQI decoder (jday96314)",
+  "author": "",
+  "votes": 5,
+  "comments": 3,
+  "posted": "2026-10-28 22:08:55.659000",
+  "last_comment": "2026-10-30 01:52:31.303000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753660"
+ },
+ "753654": {
+  "title": "Question regarding longest leader prize",
+  "author": "",
+  "votes": 8,
+  "comments": 0,
+  "posted": "2026-10-28 21:46:12.216000",
+  "last_comment": "2026-10-28 21:46:12.216000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753654"
+ },
+ "753642": {
+  "title": "The mandatory \"let's rewrite it in Rust\" post: kickmix-engine, DQI verification in a fraction of the time and memory",
+  "author": "",
+  "votes": 3,
+  "comments": 1,
+  "posted": "2026-10-28 21:08:18.064000",
+  "last_comment": "2026-10-30 06:45:55.150000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753642"
+ },
+ "753633": {
+  "title": "dfthcsos: why \u03bb_eff can't go much below ~46.8 ",
+  "author": "",
+  "votes": 5,
+  "comments": 1,
+  "posted": "2026-10-28 20:13:42.412000",
+  "last_comment": "2026-10-30 00:52:59.466000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753633"
+ },
+ "753607": {
+  "title": "DQI: The baselines RATIO: 60.11134658530358",
+  "author": "",
+  "votes": 10,
+  "comments": 10,
+  "posted": "2026-10-28 18:44:18.535000",
+  "last_comment": "2026-10-29 20:23:24.483000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753607"
+ },
+ "753588": {
+  "title": "RezOps Briefing: chemistry moves to 22.70, and the DQI draw sticks to the circuit \u2014 2026-10-28",
+  "author": "",
+  "votes": 1,
+  "comments": 0,
+  "posted": "2026-10-28 17:16:31.565000",
+  "last_comment": "2026-10-28 17:16:31.566000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753588"
+ },
+ "753527": {
+  "title": "What is one qubit worth? Marginal value per task (invsqrt 1.6%, DQI 0.23%, chem 0.23%)",
+  "author": "",
+  "votes": 3,
+  "comments": 0,
+  "posted": "2026-10-28 12:50:30.129000",
+  "last_comment": "2026-10-28 12:50:30.130000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753527"
+ },
+ "753451": {
+  "title": "invsqrt verifier: skipping x that can't arise in the algorithm?",
+  "author": "",
+  "votes": 3,
+  "comments": 0,
+  "posted": "2026-10-28 05:46:00.478000",
+  "last_comment": "2026-10-28 05:46:00.480000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753451"
+ },
+ "753424": {
+  "title": "Reading DQI leaderboard scores: a small salt effect",
+  "author": "",
+  "votes": 4,
+  "comments": 1,
+  "posted": "2026-10-28 03:43:52.022000",
+  "last_comment": "2026-10-28 05:26:16.483000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753424"
+ },
+ "753404": {
+  "title": "This competition has gone absolutely wild\uff01",
+  "author": "",
+  "votes": 6,
+  "comments": 8,
+  "posted": "2026-10-28 02:49:55.317000",
+  "last_comment": "2026-10-29 05:23:25.153000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753404"
+ },
+ "753403": {
+  "title": "An interactive look inside the invsqrt circuit",
+  "author": "",
+  "votes": 6,
+  "comments": 4,
+  "posted": "2026-10-28 02:43:52.265000",
+  "last_comment": "2026-10-29 23:46:44.596000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753403"
+ },
+ "753316": {
+  "title": "Clarification on Apache-2.0 circuit reuse and winner reproducibility",
+  "author": "",
+  "votes": 2,
+  "comments": 0,
+  "posted": "2026-10-27 20:40:54.866000",
+  "last_comment": "2026-10-27 20:40:54.866000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753316"
+ },
+ "753236": {
+  "title": "Briefing: the plateau moved to 21, the top is still private \u2014 2026-10-27",
+  "author": "",
+  "votes": 1,
+  "comments": 2,
+  "posted": "2026-10-27 17:07:42.246000",
+  "last_comment": "2026-10-27 18:29:58.820000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753236"
+ },
+ "753230": {
+  "title": "Verifying big circuits locally: a kickmix build that uses far less memory (same results)",
+  "author": "",
+  "votes": 2,
+  "comments": 6,
+  "posted": "2026-10-27 16:56:32.047000",
+  "last_comment": "2026-10-27 20:44:23.506000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753230"
+ },
+ "753185": {
+  "title": "What didn't work: 30-odd measured nulls across invsqrt, dqi and the chemistry",
+  "author": "",
+  "votes": 5,
+  "comments": 11,
+  "posted": "2026-10-27 12:39:59.276000",
+  "last_comment": "2026-11-04 14:51:26.116000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753185"
+ },
+ "753093": {
+  "title": "What happened in scoring\uff1f",
+  "author": "",
+  "votes": 1,
+  "comments": 5,
+  "posted": "2026-10-27 05:33:33.249000",
+  "last_comment": "2026-10-27 18:27:01.076000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753093"
+ },
+ "753092": {
+  "title": "Clarification on ANGLE_k target-register inputs",
+  "author": "",
+  "votes": 4,
+  "comments": 6,
+  "posted": "2026-10-27 05:30:48.583000",
+  "last_comment": "2026-10-28 01:28:30.540000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/753092"
+ },
+ "752949": {
+  "title": "There is room for local models too: a one-person setup with a limited AI budget",
+  "author": "",
+  "votes": 6,
+  "comments": 0,
+  "posted": "2026-10-26 19:51:27.663000",
+  "last_comment": "2026-10-26 19:51:27.663000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752949"
+ },
+ "752897": {
+  "title": "This is a machine-learning competition, not a quantum-algorithms competition (maybe): where each of the three tasks stands",
+  "author": "",
+  "votes": 5,
+  "comments": 0,
+  "posted": "2026-10-26 17:52:17.707000",
+  "last_comment": "2026-10-26 17:52:17.706000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752897"
+ },
+ "752895": {
+  "title": "Briefing: what we know after two days (ish) 2026-OCT-26",
+  "author": "",
+  "votes": 0,
+  "comments": 6,
+  "posted": "2026-10-26 17:45:19.715000",
+  "last_comment": "2026-10-29 21:14:57.570000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752895"
+ },
+ "752858": {
+  "title": "Is the leaderboard just who can spend most api tokens?",
+  "author": "",
+  "votes": 5,
+  "comments": 3,
+  "posted": "2026-10-26 15:27:53.752000",
+  "last_comment": "2026-10-26 16:15:58.836000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752858"
+ },
+ "752787": {
+  "title": "\uc774 \ub300\ud68c\uc6a9 \uc54c\uace0\ub9ac\uc998 \ub4f1\uc744 \uc798 \ub9cc\ub4e4\uc5b4\uc9c0\ub3c4\ub85d \ud558\ub824\uba74 AI \ub4e4 \uc911 \uc5b4\ub5a4 \ubaa8\ub378 \uc0ac\uc6a9\ud558\ub294\uac8c \ub098\uc740\uac00\uc694?",
+  "author": "",
+  "votes": -6,
+  "comments": 8,
+  "posted": "2026-10-26 10:16:30.336000",
+  "last_comment": "2026-10-27 08:37:23.256000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752787"
+ },
+ "752757": {
+  "title": "20.39 circuits, let's all reach the plateau!",
+  "author": "",
+  "votes": 21,
+  "comments": 12,
+  "posted": "2026-10-26 07:28:15.778000",
+  "last_comment": "2026-11-11 17:03:03.770000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752757"
+ },
+ "752701": {
+  "title": "Quantum team recruitment: please read the public Code guide before applying",
+  "author": "",
+  "votes": -5,
+  "comments": 0,
+  "posted": "2026-10-26 00:21:10.959000",
+  "last_comment": "2026-10-26 00:21:10.960000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752701"
+ },
+ "752659": {
+  "title": "Developing on a Mac? A native kickmix build that runs the official verifiers locally (Apple Silicon, open source)",
+  "author": "",
+  "votes": 5,
+  "comments": 2,
+  "posted": "2026-10-25 19:57:24.146000",
+  "last_comment": "2026-10-26 04:56:17.750000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752659"
+ },
+ "752650": {
+  "title": "How to start the competition ?",
+  "author": "",
+  "votes": 2,
+  "comments": 1,
+  "posted": "2026-10-25 19:27:29.040000",
+  "last_comment": "2026-10-27 04:32:27.013000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752650"
+ },
+ "752636": {
+  "title": "Using AI assistants with the competition data (Rule B(4)(b))",
+  "author": "",
+  "votes": 1,
+  "comments": 1,
+  "posted": "2026-10-25 17:24:59.475000",
+  "last_comment": "2026-10-25 19:39:29.530000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752636"
+ },
+ "752550": {
+  "title": "What are you guys scoring in each task?",
+  "author": "",
+  "votes": 7,
+  "comments": 16,
+  "posted": "2026-10-25 10:40:21.249000",
+  "last_comment": "2026-10-27 19:16:59.736000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752550"
+ },
+ "752514": {
+  "title": "Predictions for the final top leaderboard score?",
+  "author": "",
+  "votes": 1,
+  "comments": 12,
+  "posted": "2026-10-25 07:08:00.442000",
+  "last_comment": "2026-10-26 10:54:35.903000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752514"
+ },
+ "752344": {
+  "title": "dqi task: ~8e-5 phase errors with value_errors = 0 \u2014 expected, or a fixable implementation detail?",
+  "author": "",
+  "votes": 2,
+  "comments": 6,
+  "posted": "2026-10-24 14:26:44.635000",
+  "last_comment": "2026-10-28 02:29:37.406000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752344"
+ },
+ "752085": {
+  "title": "Uhh I ain't giving you everything.  Should I exit?",
+  "author": "",
+  "votes": -9,
+  "comments": 11,
+  "posted": "2026-10-23 16:44:06.733000",
+  "last_comment": "2026-10-28 11:03:15.783000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752085"
+ },
+ "752039": {
+  "title": "KickMix lab",
+  "author": "",
+  "votes": 3,
+  "comments": 2,
+  "posted": "2026-10-23 14:35:47.033000",
+  "last_comment": "2026-10-26 13:44:51.970000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752039"
+ },
+ "752038": {
+  "title": "Ground_State",
+  "author": "",
+  "votes": 1,
+  "comments": 0,
+  "posted": "2026-10-23 14:33:45.195000",
+  "last_comment": "2026-10-23 14:33:45.196000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752038"
+ },
+ "752010": {
+  "title": "Winner source-delivery requirements for public compiled inputs",
+  "author": "",
+  "votes": 9,
+  "comments": 5,
+  "posted": "2026-10-23 12:28:54.593000",
+  "last_comment": "2026-11-12 16:43:00.636000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752010"
+ },
+ "752005": {
+  "title": "Idea for hackathon",
+  "author": "",
+  "votes": 11,
+  "comments": 1,
+  "posted": "2026-10-23 12:15:33.775000",
+  "last_comment": "2026-10-25 13:51:49.070000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/752005"
+ },
+ "751968": {
+  "title": "Can we have a per-task leaderboard?",
+  "author": "",
+  "votes": 19,
+  "comments": 6,
+  "posted": "2026-10-23 08:28:41.483000",
+  "last_comment": "2026-10-25 06:41:32.580000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/751968"
+ },
+ "751951": {
+  "title": "Checks the metric runs that the standalone verifiers don't",
+  "author": "",
+  "votes": 4,
+  "comments": 1,
+  "posted": "2026-10-23 06:50:15.542000",
+  "last_comment": "2026-11-01 21:40:12.916000",
+  "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/discussion/751951"
+ }
+}

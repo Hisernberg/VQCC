@@ -4,3 +4,8 @@ syed/
 *.kmb
 *.xz
 __pycache__/
+.build/
+.venv-native/
+runs/*/attempts/
+src/syed_invsqrt/
+results.jsonl

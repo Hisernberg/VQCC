@@ -81,6 +81,9 @@ def main():
     ap.add_argument('--iters', type=int, default=10)
     ap.add_argument('--gen-timeout', type=int, default=900)
     ap.add_argument('--journal-tail', type=int, default=12)
+    ap.add_argument('--min-gain', type=float, default=1e-4,
+                    help='relative improvement needed to replace the best; re-seeded HMR outcomes alone move '
+                         'the invsqrt cost by ~1e-6, so smaller "gains" are noise')
     a = ap.parse_args()
 
     run = ROOT / 'runs' / a.task
@@ -138,7 +141,7 @@ def main():
             if q.get('status') == 'PASS' and q.get('score', 1e300) < best['score'] * 1.0005:
                 f = verify(a.task, out, quick=False)
                 rec.update(status=f.get('status'), score=f.get('score'))
-                if f.get('status') == 'PASS' and f['score'] < best['score']:
+                if f.get('status') == 'PASS' and f['score'] < best['score'] * (1 - a.min_gain):
                     best = {'score': f['score'], 'it': it, 'hypothesis': hyp, 'sha256': f.get('sha256')}
                     shutil.copy(gen, best_gen)
                     shutil.copy(out, run / 'best.kmb')

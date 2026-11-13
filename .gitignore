@@ -1,0 +1,6 @@
+data/
+frontier/
+syed/
+*.kmb
+*.xz
+__pycache__/
